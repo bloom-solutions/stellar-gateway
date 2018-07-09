@@ -1,24 +1,31 @@
-# README
+# Stellar Gateway
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails application is a gateway between crypto-assets and Stellar tokens. It is useful for Stellar anchors.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+### Deposits only
 
-* System dependencies
+- Running [Crypto Cold Store](https://github.com/bloom-solutions/crypto-cold-store) for cold storage
 
-* Configuration
+### Withdrawals only
 
-* Database creation
+- Running [Stellar Bridge](https://github.com/stellar/bridge-server/blob/master/readme_bridge.md) to detect payments to Stellar Gateway
+- Access to a [BitGo](http://bitgo.com) wallet for hot storage
 
-* Database initialization
+## Features
+- [Deposit cryptocurrencies](#deposit)
+- [Withdraw cryptocurrencies](#withdraw)
 
-* How to run the test suite
+### Cryptocurrencies
+Currently, only Bitcoin is supported. We have plans to support Ethereum and Litecoin.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Deposit
+See `spec/requests/deposit_spec.rb`
 
-* Deployment instructions
+### Withdraw
+See `spec/requests/withdraw_spec.rb`
 
-* ...
+## Setup
+
+Ensure that the environment variables in `.env` are set.
