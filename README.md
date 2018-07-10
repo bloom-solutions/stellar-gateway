@@ -14,20 +14,12 @@ This Rails application is a gateway between crypto-assets and Stellar tokens. It
 - Access to a [BitGo](http://bitgo.com) wallet for hot storage
 
 ## Features
-- [Deposit cryptocurrencies](#deposit)
-- [Withdraw cryptocurrencies](#withdraw)
-
-### Supported Cryptocurrencies
-
-- [x] Bitcoin
-- [ ] Ethereum
-- [ ] Litecoin
-
-### Deposit
-See `spec/requests/deposit_spec.rb`
-
-### Withdraw
-See `spec/requests/withdraw_spec.rb`
+- Supported Cryptocurrencies
+  - [ ] Bitcoin
+  - [ ] Ethereum
+  - [ ] Litecoin
+- [ ] Deposit cryptocurrencies: see [`spec/requests/deposit_spec.rb`](spec/requests/deposit_spec.rb)
+- [ ] Withdraw cryptocurrencies: see [`spec/requests/withdraw_spec.rb`](spec/requests/withdraw_spec.rb)
 
 ## Setup
 
