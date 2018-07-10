@@ -18,8 +18,8 @@ This Rails application is a gateway between crypto-assets and Stellar tokens. It
   - [ ] Bitcoin
   - [ ] Ethereum
   - [ ] Litecoin
-- [ ] Deposit cryptocurrencies: see [`spec/requests/deposit_spec.rb`](spec/requests/deposit_spec.rb)
-- [ ] Withdraw cryptocurrencies: see [`spec/requests/withdraw_spec.rb`](spec/requests/withdraw_spec.rb)
+- [ ] Deposit cryptocurrencies: see [`spec/requests/deposits_and_withdrawals_spec.rb`](`spec/requests/deposits_and_withdrawals_spec.rb`)
+- [ ] Withdraw cryptocurrencies: see [`spec/requests/deposits_and_withdrawals_spec.rb`](`spec/requests/deposits_and_withdrawals_spec.rb`)
 
 ## Setup
 
